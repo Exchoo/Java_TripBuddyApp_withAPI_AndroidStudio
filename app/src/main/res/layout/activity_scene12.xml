@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    tools:ignore="ExtraText"
+    android:id="@+id/mainLayout"
+    tools:context=".scene_12">
+
+
+    <AbsoluteLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="Deprecated">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="380dp"
+            android:layout_height="629dp"
+            android:layout_marginTop="15dp"
+            android:layout_x="7dp"
+            android:layout_y="212dp"
+            android:background="@drawable/shape"
+            android:paddingTop="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="209dp"
+            android:layout_y="54dp"
+            app:srcCompat="@drawable/headoteller" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="46dp"
+            android:layout_y="59dp"
+            app:srcCompat="@drawable/geri" />
+
+
+        <Button
+            android:id="@+id/geriButton"
+            android:layout_width="51dp"
+            android:layout_height="wrap_content"
+            android:layout_x="40dp"
+            android:layout_y="52dp"
+            android:alpha="0" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="102dp"
+            android:layout_y="0dp"
+            app:srcCompat="@drawable/shapetop" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="240dp"
+            android:layout_y="164dp"
+            android:translationZ="-1dp"
+            app:srcCompat="@drawable/shapebehind" />
+
+
+    </AbsoluteLayout>
+
+
+    <!---
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="match_parent"
+            android:layout_height="217dp"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="true"
+
+            android:scaleType="fitCenter"
+            android:src="@drawable/hotel_background"
+            app:shapeAppearanceOverlay="@style/roundimageview" /> -->
+
+
+
+</LinearLayout>

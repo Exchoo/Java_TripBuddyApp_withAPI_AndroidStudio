@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ayarlar"
+    android:id="@+id/mainLayout"
+    android:background="@drawable/ic_arkaplan_3"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="Buton_AnasayfayaGit"
+        android:src="@drawable/ic_geri"
+        android:translationX="-140dp"
+        android:translationY="40dp"></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_ayarlar_logo"
+        android:translationX="80dp"></ImageView>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_ppayarlar"
+        android:translationX="-120dp"
+        android:translationY="50dp"></ImageView>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/pp"
+        android:translationX="-120dp"
+        android:translationY="-60dp"
+
+        ></ImageView>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_card"
+        android:translationX="120dp"
+        android:translationY="-180dp"></ImageView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Value"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:translationX="20dp"
+        android:translationY="-290dp"></TextView>
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Value"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:translationX="20dp"
+        android:translationY="-290dp"></TextView>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:alpha="0"
+        android:onClick="Buton_SifreDegistirme"
+        android:translationX="275dp"
+        android:translationY="-550dp"></Button>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:alpha="0"
+        android:onClick="Buton_HesapTercihleri"
+        android:translationX="275dp"
+        android:translationY="-515dp"></Button>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_rectangle_41"
+        android:translationY="-500dp"
+        android:translationZ="-1dp"></ImageView>
+
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="260dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_group_29"
+        android:translationY="-790dp"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_exit"
+        android:translationY="-750dp"></ImageView>
+    <ImageView
+        android:layout_width="114dp"
+        android:layout_height="197dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_shape_8"
+        android:translationY="-1370dp"
+        android:translationX="-40dp"
+        android:translationZ="-1dp"
+        ></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_shape_9"
+        android:translationX="-120dp"
+        android:translationY="-1020dp"
+        android:translationZ="-1dp"></ImageView>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        android:onClick="Buton_Konum"
+        android:translationX="25dp"
+        android:translationY="-1350dp"></Button>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        android:onClick="Buton_Tema"
+        android:translationX="25dp"
+        android:translationY="-1330dp"></Button>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        android:onClick="Buton_Dil"
+        android:translationX="25dp"
+        android:translationY="-1310dp"></Button>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        android:translationX="145dp"
+        android:translationY="-1355dp"></Button>
+
+</LinearLayout>

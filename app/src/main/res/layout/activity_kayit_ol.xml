@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_arkaplan"
+    android:orientation="vertical"
+    tools:context=".KayitOl">
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/ic_shape_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout2"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView41"
+        app:srcCompat="@drawable/ic_shape_1__1_1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="198.48dp"
+            android:layout_height="45dp"
+            android:layout_marginVertical="20dp"
+            android:src="@drawable/ic_head"
+            android:translationX="100dp"
+            android:translationY="50dp"></ImageView>
+
+        <ImageView
+            android:layout_width="171dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_hadi_sana_biraz_etraf__g_sterelim_"
+            android:translationX="50dp"
+            android:translationY="50dp"></ImageView>
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="kullanıcı adı"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#6C6C6C"
+            android:textColorHint="#6C6C6C"
+            android:textSize="16dp"
+            android:translationX="60dp"
+            android:translationY="100dp"></EditText>
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="pasaport numarası"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#6C6C6C"
+            android:textColorHint="#6C6C6C"
+            android:textSize="16dp"
+            android:translationX="60dp"
+            android:translationY="110dp"></EditText>
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="şifre"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="#6C6C6C"
+            android:textColorHint="#6C6C6C"
+            android:textSize="16dp"
+            android:translationX="60dp"
+            android:translationY="120dp"></EditText>
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="şifre tekrarı"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="#6C6C6C"
+            android:textColorHint="#6C6C6C"
+            android:textSize="16dp"
+            android:translationX="60dp"
+            android:translationY="140dp"></EditText>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_kayit"
+            android:translationX="160dp"
+            android:translationY="160dp"></ImageView>
+
+        <ImageView
+            android:layout_width="252dp"
+            android:layout_height="22dp"
+            android:onClick="Buton_GirisYap"
+            android:src="@drawable/ic_hesap_var"
+            android:translationX="85dp"
+            android:translationY="180dp"></ImageView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

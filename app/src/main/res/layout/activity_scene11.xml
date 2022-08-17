@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scene_11"
+    android:id="@+id/mainLayout"
+    android:background="@drawable/gradient_background">
+
+    <ImageView
+        android:id="@+id/settingsImage"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_x="33dp"
+        android:layout_y="62dp"
+        app:srcCompat="@drawable/pp_ayarlar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="161dp"
+        android:layout_y="76dp"
+        app:srcCompat="@drawable/tripbuddy"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="248dp"
+        android:layout_y="146dp"
+        app:srcCompat="@drawable/kur"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="383dp"
+        android:layout_height="152dp"
+        android:layout_x="5dp"
+        android:layout_y="243dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/grouphizmetler"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <Button
+        android:id="@+id/inceleButton"
+        android:layout_width="94dp"
+        android:layout_height="93dp"
+        android:layout_x="282dp"
+        android:layout_y="693dp"
+        android:alpha="0"
+        android:background="@drawable/roundedbutton"
+        android:text="Button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="695dp" />
+
+    <Button
+        android:id="@+id/UlasimButton"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_x="211dp"
+        android:layout_y="259dp"
+        android:alpha="0"
+        android:text="Button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <Button
+        android:id="@+id/SaglikButton"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_x="211dp"
+        android:layout_y="323dp"
+        android:alpha="0"
+        android:text="Button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <Button
+        android:id="@+id/actButton"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="322dp"
+        android:alpha="0"
+        android:text="Button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <Button
+        android:id="@+id/otelButton"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="258dp"
+        android:alpha="0"
+        android:text="Button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <ImageView
+        android:id="@+id/Hizmetler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40dp"
+        android:layout_y="206dp"
+        app:srcCompat="@drawable/hizmetler"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <ImageView
+        android:id="@+id/Vector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="292dp"
+        android:layout_y="140dp"
+        android:alpha="0.3"
+        app:srcCompat="@drawable/shape1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <ImageView
+        android:id="@+id/TavsiyeEdilen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40dp"
+        android:layout_y="418dp"
+        app:srcCompat="@drawable/tavsiye_edlien"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <ImageView
+        android:id="@+id/bottomImageView"
+        android:layout_width="388dp"
+        android:layout_height="334dp"
+        android:layout_x="0dp"
+        android:layout_y="461dp"
+        app:srcCompat="@drawable/bottomimg"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <Button
+        android:id="@+id/solOkButton"
+        android:layout_width="29dp"
+        android:layout_height="32dp"
+        android:layout_x="281dp"
+        android:layout_y="415dp"
+        android:alpha="0"
+        android:text="Button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="322dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <ImageView
+        android:id="@+id/sagOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="320dp"
+        android:layout_y="422dp"
+        app:srcCompat="@drawable/sagok"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="367dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="291dp"
+        android:layout_y="422dp"
+        app:srcCompat="@drawable/solok"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="332.77dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <Button
+        android:id="@+id/sagOkButton"
+        android:layout_width="29dp"
+        android:layout_height="32dp"
+        android:layout_x="311dp"
+        android:layout_y="414dp"
+        android:alpha="0"
+        android:text="Button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="360dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+
+
+
+    <!--Acil Arama Arayüz-->
+    <AbsoluteLayout
+        android:id="@+id/absolute"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="-1dp"
+        android:layout_y="2dp"
+        android:alpha="0"
+        android:background="#000">
+
+        <TextView
+            android:id="@+id/aaaText"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_x="320dp"
+            android:layout_y="223dp"
+            android:fontFamily="@font/poppins"
+            android:text="AAAA"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/acilDurum"
+            android:layout_width="135dp"
+            android:layout_height="150dp"
+            android:layout_x="54dp"
+            android:layout_y="216dp"
+            android:fontFamily="@font/poppins"
+            android:text="Acil durum mesajı göndermek üzeresiniz.."
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/butonaBasma"
+            android:layout_width="343dp"
+            android:layout_height="56dp"
+            android:layout_x="28dp"
+            android:layout_y="643dp"
+            android:fontFamily="@font/poppins"
+            android:text="Durdurmak için panelden çıkın."
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ellipse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="286dp"
+            android:layout_y="140dp"
+            android:translationZ="-1dp"
+            app:srcCompat="@drawable/ellipse" />
+
+        <Button
+            android:id="@+id/acilDurumButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="75dp"
+            android:layout_y="648dp"
+            android:alpha="0"
+            android:background="@drawable/bg"
+            android:fontFamily="@font/poppins"
+            android:text="Acil Durum Mesajı İçin Tıklayınız."
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottom_header_relativelayout"
+            android:layout_x="34dp"
+            android:layout_y="617dp"
+            android:max="5"
+            android:progress="0" />
+
+
+        <ImageView
+            android:id="@+id/geriButtonImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="51dp"
+            android:layout_y="79dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/geri" />
+
+        <Button
+            android:id="@+id/geriButton"
+            android:layout_width="51dp"
+            android:layout_height="wrap_content"
+            android:layout_x="40dp"
+            android:layout_y="52dp"
+            android:alpha="0"
+            android:visibility="gone" />
+
+
+    </AbsoluteLayout>
+</AbsoluteLayout>

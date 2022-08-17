@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="282dp"
+    android:layout_height="46dp"
+    tools:context=".task13FirstFragment"
+    tools:ignore="Deprecated">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="10dp"
+        android:layout_y="280dp">
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--Birinci Hastane-->
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="322dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hastane_bg"
+                android:layout_x="30dp"
+                android:layout_y="50dp">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/konum"
+                android:layout_x="60dp"
+                android:layout_y="100dp"/>
+
+            <ImageView
+                android:id="@+id/hastanebiracikmi"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/acik"
+                android:layout_x="280dp"
+                android:layout_y="72dp"/>
+            <Button
+                android:id="@+id/navigateToMapsOne"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_x="275dp"
+                android:layout_y="67dp"
+                android:alpha="0"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kırkevler,Kastamonu Cd. No:260"
+                android:layout_x="75dp"
+                android:layout_y="100dp"
+                android:textSize="10sp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Çankırı Devlet Hastanesi"
+                android:layout_x="58dp"
+                android:fontFamily="@font/poppins"
+                android:layout_y="65dp"
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <!--2.Hastane-->
+
+            <ImageView
+                android:id="@+id/hastaneiki"
+                android:layout_width="322dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hastane_bg"
+                android:layout_x="26dp"
+                android:layout_y="189dp">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/konum"
+                android:layout_x="60dp"
+                android:layout_y="240dp"/>
+
+            <ImageView
+                android:id="@+id/hastaneikiacikmi"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/acik"
+                android:layout_x="290dp"
+                android:layout_y="210dp"/>
+
+            <Button
+                android:id="@+id/navigateToMapsTwo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_y="205dp"
+                android:layout_x="285dp"
+                android:alpha="0"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Özel Karatekin Hastanesi"
+                android:layout_x="58dp"
+                android:fontFamily="@font/poppins"
+                android:textColor="#FFF"
+                android:layout_y="205dp"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kırkevler,Kastamonu Cd. No:260"
+                android:fontFamily="@font/poppins"
+                android:layout_x="75dp"
+                android:layout_y="240dp"
+                android:textSize="10sp"
+                android:textColor="#fff"/>
+            <!--112 Acil Ara-->
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="54dp"
+                android:src="@drawable/yuzoniliacilara"
+                android:layout_y="400dp"
+                android:layout_x="95dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="112'yi Ara"
+                android:textColor="#fff"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins"
+                android:layout_y="415dp"
+                android:layout_x="160dp"/>
+            <Button
+                android:id="@+id/acilAraButton"
+                android:layout_width="210dp"
+                android:layout_height="70dp"
+                android:layout_y="393dp"
+                android:layout_x="83dp"
+                android:alpha="0"/>
+
+
+
+
+        </AbsoluteLayout>
+    </FrameLayout>
+
+</AbsoluteLayout>

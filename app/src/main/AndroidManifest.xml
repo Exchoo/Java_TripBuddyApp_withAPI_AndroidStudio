@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission. ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project">
+        <activity
+            android:name=".scene_25"
+            android:exported="false" />
+        <activity
+            android:name=".scene_20"
+            android:exported="false" />
+        <activity
+            android:name=".scene_21"
+            android:exported="false" />
+        <activity
+            android:name=".scene_14_main"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".Ayarlar"
+            android:exported="false" />
+        <activity
+            android:name=".scene_22"
+            android:exported="false" />
+        <activity
+            android:name=".scene_11"
+            android:exported="false" />
+        <activity
+            android:name=".scene_19"
+            android:exported="false" />
+        <activity
+            android:name=".AktivitelerBilgi"
+            android:exported="false" />
+        <activity
+            android:name=".AktivitelerKafe"
+            android:exported="false" />
+        <activity
+            android:name=".AktivitelerOyun"
+            android:exported="false" />
+        <activity
+            android:name=".Aktiviteler"
+            android:exported="false" />
+        <activity
+            android:name=".scene_14"
+            android:exported="false" />
+        <activity
+            android:name=".scene_12"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".scene_13"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".scene_17"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".scene_7"
+            android:exported="false" />
+        <activity
+            android:name=".scene_6"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".scene_5"
+            android:exported="false" />
+        <activity
+            android:name=".GirisYap"
+            android:exported="false" />
+        <activity
+            android:name=".KayitOl"
+            android:exported="false" />
+        <activity
+            android:name=".acilDurumActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".scene_4"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

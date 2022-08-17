@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_backgroundd"
+    tools:context=".scene_14_main"
+    android:id="@+id/mainLayout"
+    android:alpha="1">
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="Deprecated">
+
+        <ImageView
+            android:id="@+id/shapeTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/shapetop"
+            android:layout_x="309dp"
+            android:layout_y="-15dp"/>
+        <ImageView
+            android:id="@+id/shapeLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/shapeleft"
+            android:layout_x="-5dp"
+            android:layout_y="255.34dp"
+            android:translationZ="-1dp"/>
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_x="28dp"
+            android:layout_y="80dp"
+            android:alpha="0"
+            android:text="Button" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="46dp"
+            android:layout_y="94dp"
+            app:srcCompat="@drawable/ic_geri" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="212dp"
+            android:layout_y="94dp"
+            app:srcCompat="@drawable/headulasim" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="300dp"
+            android:layout_height="46dp"
+            android:layout_x="50dp"
+            android:layout_y="218dp"
+            app:tabIndicator="@drawable/tab_indicator_bg"
+            app:tabIndicatorHeight="50dp"
+            app:tabTextColor="#FFF"
+            app:tabSelectedTextColor="#111"
+            app:tabIndicatorColor="#FFF"
+            app:tabGravity="fill"
+            app:tabIndicatorAnimationMode="elastic"
+            android:background="@drawable/tabindicator" />
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tabLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="100dp"
+            tools:layout_editor_absoluteX="8dp">
+
+        </androidx.viewpager.widget.ViewPager>
+    </AbsoluteLayout>
+
+</RelativeLayout>

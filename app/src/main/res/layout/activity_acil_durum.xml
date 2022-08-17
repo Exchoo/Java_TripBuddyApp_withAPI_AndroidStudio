@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".acilDurumActivity"
+    android:background="#FFF">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:text="Acil durum mesajı ekiplere gönderildi."
+        android:layout_x="36dp"
+        android:layout_y="224dp"
+        android:fontFamily="@font/poppins" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="262dp"
+        android:layout_y="245dp"
+        app:srcCompat="@drawable/acildurumpolice" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="194dp"
+        android:layout_y="423dp"
+        app:srcCompat="@drawable/acildurumtextlinevector" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="430dp"
+        app:srcCompat="@drawable/acildurumtextline" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_x="60dp"
+        android:layout_y="629dp"
+        android:text="Ekipler bulunduğun bölgeye doğru yönlendirildi."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="155dp"
+        android:layout_y="715dp"
+        app:srcCompat="@drawable/acildurumkapatbutton" />
+
+    <Button
+        android:id="@+id/acilDurumKapatButton"
+        android:layout_width="104dp"
+        android:layout_height="96dp"
+        android:layout_x="154dp"
+        android:layout_y="716dp"
+        android:alpha="0"
+        android:text="Button" />
+
+
+</AbsoluteLayout>

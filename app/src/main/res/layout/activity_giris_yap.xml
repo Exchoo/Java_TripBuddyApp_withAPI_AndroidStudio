@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_arkaplan"
+    android:orientation="vertical"
+    android:id="@+id/mainLayout"
+    tools:context=".GirisYap">
+
+    <ImageView
+        android:layout_width="198.48dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="20dp"
+        android:src="@drawable/ic_head"
+        android:translationY="50dp" />
+
+    <ImageView
+        android:layout_width="231dp"
+        android:layout_height="90dp"
+        android:src="@drawable/ic_yeni_aktivitelerini_planlamanda_yard_mc__olmak_i_in_burday_z_"
+        android:translationX="50dp"
+        android:translationY="100dp"/>
+
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:alpha="@integer/material_motion_duration_long_1"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/poppins_regular"
+        android:hint="kullanıcı adı"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#6C6C6C"
+        android:textColorHint="#6C6C6C"
+        android:textSize="16dp"
+        android:translationX="60dp"
+        android:translationY="150dp"/>
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:alpha="@integer/material_motion_duration_long_1"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/poppins_regular"
+        android:hint="kullanıcı soyadı"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#6C6C6C"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#6C6C6C"
+        android:textSize="16dp"
+        android:translationX="60dp"
+        android:translationY="150dp"/>
+
+    <EditText
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/poppins_regular"
+        android:hint="şifre"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="#6C6C6C"
+        android:textColorHint="#6C6C6C"
+        android:textSize="16dp"
+        android:translationX="60dp"
+        android:translationY="160dp"
+        android:translationZ="10dp"/>
+
+    <ImageView
+        android:id="@+id/buttonGirisYap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_gir"
+        android:translationY="180dp"
+        tools:ignore="OnClick" />
+
+    <ImageView
+        android:layout_width="252dp"
+        android:layout_height="22dp"
+        android:layout_gravity="center"
+        android:onClick="Buton_KayitOl"
+        android:src="@drawable/ic_hesap_yok"
+        android:translationY="200dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_shape_1"
+        android:translationX="270dp"
+        android:translationY="-80dp"
+        android:translationZ="-1dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_shape_2"
+        android:translationX="30dp"
+        android:translationY="-360dp"
+        android:translationZ="-1dp"/>
+</LinearLayout>

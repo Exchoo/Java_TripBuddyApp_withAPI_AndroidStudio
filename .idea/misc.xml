@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/drawable/bg_lite.xml" value="0.299" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_aktiviteler.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_ayarlar.xml" value="0.25" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_giris_yap.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_main_scene14.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_scene11.xml" value="0.2" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_scene12.xml" value="0.22" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_scene13.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_scene14.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_scene17.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_scene19.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_scene20.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_scene21.xml" value="0.22" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_scene22.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_scene25.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_scene4.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_scene5.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_scene6.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/activity_scene7.xml" value="0.18" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/fragment_first_scene14.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/bugra/Desktop/Sefa Son/project/app/src/main/res/layout/fragment_second_scene14.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/bugra/Desktop/TRip Buddy/Sefa Son/project/app/src/main/res/layout/fragment_first_scene14.xml" value="0.25" />
+        <entry key="..\:/Users/bugra/Desktop/TRip Buddy/Sefa Son/project/app/src/main/res/layout/fragment_second_scene14.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/bugra/Desktop/TRip Buddy/Sefa Son/project/app/src/main/res/layout/fragment_third_scene14.xml" value="0.35260416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

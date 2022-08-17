@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AktivitelerOyun"
+    android:background="@drawable/ic_arkaplan_2"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_shape_6"
+        android:translationX="0dp"
+        android:translationY="-20dp"
+        android:translationZ="-1dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_shape_7"
+        android:translationX="340dp"
+        android:translationY="20dp"
+        android:translationZ="-1dp"
+        ></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_aktiviteler"
+        android:translationX="50dp"
+        android:translationY="-140dp"
+        ></ImageView>
+    <ImageView
+        android:onClick="Buton_AnasayfayaGit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_geri"
+        android:translationX="-150dp"
+        android:translationY="-180dp"
+        ></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:translationY="-150dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_kategori02"
+            android:translationX="60dp"
+            ></ImageView>
+
+        <Button
+            android:onClick="Buton_Gezi"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:alpha="0"
+            android:textColor="#FFFFFF"
+            android:translationX="-200dp"
+            android:translationY="35dp"
+            app:rippleColor="#FFFFFF">
+
+        </Button>
+        <Button
+            android:onClick="Buton_Oyun"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:alpha="0"
+            android:textColor="#FFFFFF"
+            android:translationX="-160dp"
+            android:translationY="35dp"
+            app:rippleColor="#FFFFFF">
+
+        </Button>
+
+        <Button
+            android:onClick="Buton_Kafe"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:alpha="0"
+            android:textColor="#FFFFFF"
+            android:translationX="-150dp"
+            android:translationY="35dp"
+            app:rippleColor="#FFFFFF">
+
+        </Button>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:translationY="-150dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/oyun_1"
+                ></ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/oyun_2"
+                ></ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/oyun_3"
+                ></ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/oyun_1"
+                ></ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/oyun_2"
+                ></ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/oyun_3"
+                ></ImageView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
